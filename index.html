@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  <!-- Bootstrap Script -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <h1 id="level-title">Press START Button or Any Key to Start</h1>
+  <div type="button" class="start-btn">START</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 signal-box">
+        <button type="button" id="green" class="simon-btn green"></button>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 signal-box">
+        <button type="button" id="red" class="simon-btn red"></button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 signal-box">
+        <button type="button" id="yellow" class="simon-btn yellow"></button>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 signal-box">
+        <button type="button" id="blue" class="simon-btn blue"></button>
+      </div>
+    </div>
+
+    <!-- <div class="row">
+      <div type="button" id="green" class="simon-btn green">
+        </div>
+        <div type="button" id="red" class="simon-btn red">
+      </div>
+    </div>
+    <div class="row">
+      <div type="button" id="yellow" class="simon-btn yellow">
+      </div>
+      <div type="button" id="blue" class="simon-btn blue">
+      </div> -->
+
+    </div>
+
+  </div>
+  <div class="instruction">
+    <h2>Instruction</h2>
+    <p>1. Press the start button or any key to start. Simon will give the first signal. Repeat the signal by pressing the same color box.</p>
+    <p>2. Simon will add one. Repeat these two signals by pressing the same color boxes in order.</p>
+    <p>3. Continue playing as long as you can repeat each sequence of signal correctly.</p>
+  </div>
+
+  <div>
+    <p class="copyright">© 2020 little-pea</p>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>
