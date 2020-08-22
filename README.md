@@ -1,9 +1,9 @@
 # simon-game
 
-#Visit link
+## Visit link
 https://mun1013.github.io/simon-game/
 
-#Instruction
+## Instruction
 1. Press the start button or any key to start. Simon will give the first signal. Repeat the signal by pressing the same color box.
 
 2. Simon will add one. Repeat these two signals by pressing the same color boxes in order.
