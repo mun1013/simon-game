@@ -1,5 +1,13 @@
 # simon-game
 
+The following features are used to make up this mini game.
+
+```
+HTML
+CSS
+JQuery
+```
+
 ## Visit link
 https://mun1013.github.io/simon-game/
 
